@@ -11,7 +11,7 @@ Like all other Backtracking problems, we can solve Sudoku by one by one assignin
   * If there is none, return true
   * For digits from 1 to 9
     a) If there is no conflict for digit at row, col
-        assign digit to row, col and recursively try fill in rest of grid
-    b) If recursion successful, return true
-    c) Else, remove digit and try another
+        assign digit to row, col and recursively try fill in rest of grid <br />
+    b) If recursion successful, return true <br />
+    c) Else, remove digit and try another <br />
   * If all digits have been tried and nothing worked, return false
